@@ -45,21 +45,22 @@ export const StatItem = styled.li`
   padding-left: 14px;
   padding-top: 20px;
   padding-bottom: 20px;
-  &: nth-child(1) {
-    background-color: ${getRandomColor()};
-  }
-  &: nth-child(2n) {
-    background-color: ${getRandomColor()};
-  }
-  &: nth-child(3n) {
-    background-color: ${getRandomColor()};
-  }
-  &: nth-child(4n) {
-    background-color: ${getRandomColor()};
-  }
-  &: nth-child(5n) {
-    background-color: ${getRandomColor()};
-  }
+  background-color: ${getRandomColor};
+  // &: nth-child(1) {
+  //   background-color: ${getRandomColor()};
+  // }
+  // &: nth-child(2n) {
+  //   background-color: ${getRandomColor()};
+  // }
+  // &: nth-child(3n) {
+  //   background-color: ${getRandomColor()};
+  // }
+  // &: nth-child(4n) {
+  //   background-color: ${getRandomColor()};
+  // }
+  // &: nth-child(5n) {
+  //   background-color: ${getRandomColor()};
+  // }
 `;
 export const StatLabel = styled.p`
   font-size: 16px;
